@@ -15,7 +15,7 @@ Follow the following steps to setup and run:
 # Note
 
 - The chat generator works good when you have a large corpus of data e.g it will work good for contacts with which you have a lot of chat history and won't work well for those who have very little chat history with you.
-- _Your Messenger chat data is sensitive and private information, this repository doesn't share or use that info in any way and stays on the machine you are running this project on._
+- _Your Messenger chat data is sensitive and private information, this repository doesn't intend to share that info with any 3rd party in any way and stays on the machine you are running this project on._
 
 # Facebook Step by Step Guide to Download Messenger Chat Data
 
