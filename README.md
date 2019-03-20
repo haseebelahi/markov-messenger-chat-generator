@@ -12,6 +12,11 @@ Follow the following steps to setup and run:
 - Run `python markovify_chat.py t` to train models on the messenger chat with each one of your contacts.
 - Run `python markovify_chat.py g [firstname]_[lastname] [firstname]_[lastname] [length of conversation]` e.g `python markovify_chat.py g jane_doe john_doe 5`
 
+# Note
+
+- The chat generator works good when you have a large corpus of data e.g it will work good for contacts with which you have a lot of chat history and won't work well for those who have very little chat history with you.
+- _Your Messenger chat data is sensitive and private information, this repository doesn't share or use that info in any way and stays on the machine you are running this project on._
+
 # Facebook Step by Step Guide to Download Messenger Chat Data
 
 - Login into your account on facebook, go to Settings
