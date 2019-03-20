@@ -9,7 +9,7 @@ Follow the following steps to setup and run:
 
 - Install Python
 - Install markovify for using Markov Chains `pip install markovify`
-- Download your facebook messenger chat info from Settings -> Your Facebook Information -> Download Your Information. For detailed guidline with screenshots on how to download the messenger chat data from Facebook scroll here.
+- Download your facebook messenger chat info from Settings -> Your Facebook Information -> Download Your Information. Find detailed guidline with screenshots on how to download the messenger chat data from Facebook [here](https://github.com/haseebelahi/markov-messenger-chat-generator/blob/master/README.md#facebook-step-by-step-guide-to-download-messenger-chat-data).
 - Extract the downloaded file and copy the `messages/inbox` folder to the root directory.
 - Run `python markovify_chat.py t` to train models on the messenger chat with each one of your contacts.
 - Run `python markovify_chat.py g [firstname]_[lastname] [firstname]_[lastname] [length of conversation]` e.g `python markovify_chat.py g jane_doe john_doe 5`
