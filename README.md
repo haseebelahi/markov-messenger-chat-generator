@@ -1,7 +1,5 @@
 # Markov Messenger Chat Generator
-Using Markov Chains to generate random chats using your Facebook Messenger's chat history. Generate chats with your Messenger contacts, messages which you never actually sent them but will feel like you have.
-
-Using Markov Chains to generate new sentences from words you and your friends have used in your Messenger conversations.
+Using Markov Chains to generate new chats from words you and your friends have used in your Messenger conversations. Generate messages which you never actually sent them but will feel like you have :grin:
 
 # Setup Instructions
 
