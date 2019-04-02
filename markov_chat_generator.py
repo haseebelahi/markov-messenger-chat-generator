@@ -25,7 +25,7 @@ class MarkovChatGenerator:
 					file_handles[participant_name] = open(self.text_corpus_dir + '/' + participant_name + '.txt', 'a', encoding="utf-8")
 
 				for message in data['messages']:
-					if 'content' in message and message['type']=='Generic' and message['content'].find('http') == -1 and message['content'].find('sent a photo') == -1:
+					if 'content' in message and message['type']=='Generic' and message['content'].find('http') == -1 and message['content'].find('sent a photo') == -1 and message['content'].find('set his own nickname') == -1 and message['content'].find('removed vote for') == -1 and message['content'].find('voted for') == -1 and message['content'].find('created a poll') == -1 and message['content'].find('set the nickname for') == -1:
 						content = message['content'].lower()
 						print(content)
 						sender_name = message['sender_name'].replace(' ', '_').lower()
